@@ -6,7 +6,7 @@ Check out a simple usage of **nv-simple-toast** : [nv-simple-toast](https://nvig
 
 ## Installation
 
-```javascript
+```
 npm install --save nv-simple-toast
 ```
 [npm package](https://www.npmjs.com/package/nv-simple-toast)
@@ -29,7 +29,7 @@ export class AppModule {}
 ### Template
 Add ``<nv-simple-toast></nv-simple-toast>`` to your template
 
-```javascript
+```html
 <main>
   <router-outlet></router-outlet>
   <nv-simple-toast></nv-simple-toast>
@@ -37,7 +37,7 @@ Add ``<nv-simple-toast></nv-simple-toast>`` to your template
 ```
 ----------
 ### Service
-Import the service ``NvSimpleToast`` in to your component
+Import the service ``NvSimpleToast`` in to your components
 ```javascript
 import { NvSimpleToast } from 'nv-simple-toast'
 ...
