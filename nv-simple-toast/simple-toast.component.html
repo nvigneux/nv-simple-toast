@@ -1,0 +1,6 @@
+<section class="nv-toasts">
+  <div class="nv-toast" *ngFor="let toast of toasts">
+    <p class="nv-toast__text">{{toast.title}}</p>
+    <span class="nv-toast__action" (click)="removeToast(toast)">remove</span>
+  </div>
+</section>

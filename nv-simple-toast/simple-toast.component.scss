@@ -1,0 +1,50 @@
+.nv-toasts {
+  position: absolute;
+  display: flex;
+  flex-direction: column-reverse;
+  bottom: 15px;
+  right: 15px;
+  .nv-toast {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 350px;
+    padding: 0 15px;
+    font-size: 1em;
+    border-radius: 6px;
+    margin-bottom: 5px;
+    background: #242424;
+    @media screen and (max-width: 600px) {
+      width: inherit;
+      margin: 0;
+      border-radius: 0;
+    }
+    &__text {
+      @extend .nv-toast--ellipsis;
+      flex: 1 0 0;
+      padding-right: 15px;
+      font-size: 0.95em;
+      color: #e5e5e5;
+      letter-spacing: 0.03em;
+    }
+    &__action {
+      flex: 0;
+      font-size: 0.85em;
+      color: #fbb131;
+      cursor: pointer;
+    }
+    &--ellipsis {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    &:first-child {
+      margin-bottom: 0;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}

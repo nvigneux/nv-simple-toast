@@ -1,0 +1,18 @@
+{
+  "name": "nv-simple-toast",
+  "version": "0.1.0",
+  "description": "Simple and Light angular toast",
+  "repository": "https://github.com/nvigneux/ng-simple-toast",
+  "author": "nvigneux <vigneuxnicolas@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/core": "^5.0.0",
+    "@angular/common": "^5.0.0"
+  },
+  "ngPackage": {
+    "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
+    "lib": {
+      "entryFile": "public_api.ts"
+    }
+  }
+}
