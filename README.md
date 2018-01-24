@@ -1,5 +1,5 @@
 # nv-simple-toast
-> A light and simple toast library for Angular.
+> A really really simple toast library for Angular ...
 
 ## Demo 
 Check out a simple usage of **nv-simple-toast** : [nv-simple-toast](https://nvigneux.github.io/nv-simple-toast-example/)
